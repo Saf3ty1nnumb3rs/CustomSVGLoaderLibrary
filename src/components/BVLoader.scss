@@ -1,0 +1,16 @@
+$baseColor : #e74c3c;
+
+svg{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+  rect {
+    border: 1px solid black;
+  }
+}
+body{
+  background: $baseColor;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
