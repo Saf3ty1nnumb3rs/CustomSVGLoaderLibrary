@@ -1,9 +1,10 @@
 import React from 'react';
-import BVLoader from './BVLoader/BVLoader';
-import CommonLoader from './CommonLoader/CommonLoader';
-import PulseLoader from './PulseLoader/PulseLoader';
-import SatelliteLoader from './SatelliteLoader/SatelliteLoader';
-import BarGraphLoader from './BarGraphLoader/BarGraphLoader';
+
+import BVLoader from './BVLoader';
+import CommonLoader from './CommonLoader';
+import PulseLoader from './PulseLoader';
+import SatelliteLoader from './SatelliteLoader';
+import BarGraphLoader from './BarGraphLoader';
 
 const App = () => (
   <div>

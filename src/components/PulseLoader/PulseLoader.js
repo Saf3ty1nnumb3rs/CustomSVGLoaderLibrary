@@ -4,7 +4,7 @@ const PulseLoader = () => {
   return (
     <svg version="1.1" id="L6" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
-        <circle id="circ1" cx="40" cy="50" stroke="#e74c3c" strokeWidth="1" fill="#e74c3c" r="4">
+        <circle id="circ1" cx="40" cy="50" stroke="#e55437" strokeWidth="1" fill="#e55437" r="4">
             <animate
               attributeName="r"
               attributeType="XML"
@@ -24,7 +24,7 @@ const PulseLoader = () => {
               to="4"
             />
         </circle>
-        <circle id="circ2" cx="50" cy="50" stroke="#e74c3c" strokeWidth="1" fill="#e74c3c" r="4">
+        <circle id="circ2" cx="50" cy="50" stroke="#e1cf79" strokeWidth="1" fill="#e1cf79" r="4">
           <animate
             attributeName="r"
             attributeType="XML"
@@ -44,7 +44,7 @@ const PulseLoader = () => {
             to="4"
           />
         </circle>
-        <circle id="circ3" cx="60" cy="50" stroke="#e74c3c" strokeWidth="1" fill="#e74c3c" r="4">
+        <circle id="circ3" cx="60" cy="50" stroke="#3097bf" strokeWidth="1" fill="#3097bf" r="4">
         <animate
           attributeName="r"
           attributeType="XML"
