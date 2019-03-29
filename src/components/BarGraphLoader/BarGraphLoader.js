@@ -2,13 +2,14 @@ import React from 'react';
 
 const BarGraphLoader = () => {
   return (
-    <svg version="1.1" id="L6" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" id="L6" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
         <g transform="scale(1,-1) translate(0,-100)">
-          <rect className="solidPrimary" x="10" y="9" stroke="#768591" strokeWidth=".1" fill="#EAE6DF" width="20" height="3">
+          <rect id="solidPrimary" x="10" y="9" stroke="#768591" strokeWidth="0.1" fill="#EAE6DF" width="20" height="3">
             <animate
+              xlinkHref="#solidPrimary"
               attributeName="height"
-              dur=".5s"
+              dur="0.5s"
               attributeType="XML"
               from="3" 
               to="45"
@@ -17,8 +18,9 @@ const BarGraphLoader = () => {
               begin="0s; graphA2.end + 1s"
             />
             <animate
+              xlinkHref="#solidPrimary"
               attributeName="height"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="45" 
               to="30"
@@ -27,20 +29,22 @@ const BarGraphLoader = () => {
               begin="graphA.end"
             />
             <animate
+              xlinkHref="#solidPrimary"
               attributeName="height"
-              dur=".3s"
+              dur="0.3s"
               attributeType="XML"
               from="30" 
               to="3"
               id="graphA2" 
               fill="freeze"
-              begin="graphA1.end + .9s"
+              begin="graphA1.end + 0.9s"
             />
           </rect>
-          <rect className="solidPrimary" x="40" y="9" stroke="#A79B94" strokeWidth="1" fill="#A79B94" width="20" height="3">
+          <rect id="solidSecondary" x="40" y="9" stroke="#A79B94" strokeWidth="1" fill="#A79B94" width="20" height="3">
             <animate
+              xlinkHref="#solidSecondary"
               attributeName="height"
-              dur=".5s"
+              dur="0.5s"
               attributeType="XML"
               from="3" 
               to="65"
@@ -49,8 +53,9 @@ const BarGraphLoader = () => {
               begin="0.3s; graphB2.end + 1.3s"
             />
             <animate
+              xlinkHref="#solidSecondary"
               attributeName="height"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="65" 
               to="50"
@@ -59,20 +64,22 @@ const BarGraphLoader = () => {
               begin="graphB.end"
             />
             <animate
+              xlinkHref="#solidSecondary"
               attributeName="height"
-              dur=".3s"
+              dur="0.3s"
               attributeType="XML"
               from="50" 
               to="3"
               id="graphB2" 
               fill="freeze"
-              begin="graphB1.end + .6s"
+              begin="graphB1.end + 0.6s"
             />
           </rect>
-          <rect className="solidPrimary" x="70" y="9" stroke="#FF5A60" strokeWidth="1" fill="#FF5A60" width="20" height="3">
+          <rect id="solidTertiary" x="70" y="9" stroke="#FF5A60" strokeWidth="1" fill="#FF5A60" width="20" height="3">
             <animate
+              xlinkHref="#solidTertiary"
               attributeName="height"
-              dur=".5s"
+              dur="0.5s"
               attributeType="XML"
               from="3" 
               to="85"
@@ -81,8 +88,9 @@ const BarGraphLoader = () => {
               begin="0.6s; graphC2.end + 1.6s"
             />
             <animate
+              xlinkHref="#solidTertiary"
               attributeName="height"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="85" 
               to="70"
@@ -91,14 +99,15 @@ const BarGraphLoader = () => {
               begin="graphC.end"
             />
             <animate
+              xlinkHref="#solidTertiary"
               attributeName="height"
-              dur=".3s"
+              dur="0.3s"
               attributeType="XML"
               from="70" 
               to="3"
               id="graphC2" 
               fill="freeze"
-              begin="graphC1.end + .3s"
+              begin="graphC1.end + 0.3s"
             />
           </rect>
         </g>

@@ -9,7 +9,7 @@ const BVLoader = () => {
         <rect className="horizontal1" x="50" y="51" fill="#0a61ad" width="50" height="5">
           <animate
             attributeName="width"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="0" 
             to="22"
@@ -19,7 +19,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="width"
-            dur=".2s"
+            dur="0.2s"
             attributeType="XML"
             from="22" 
             to="58"
@@ -29,7 +29,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="width"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="58" 
             to="48"
@@ -39,17 +39,17 @@ const BVLoader = () => {
           />
           <animate
             attributeName="width"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="48" 
             to="0"
             id="rectLineTop2" 
             fill="freeze"
-            begin="rectLineTop1.end + .5s"
+            begin="rectLineTop1.end + 0.5s"
           />
           <animate
             attributeName="y"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="51" 
             to="78"
@@ -59,17 +59,17 @@ const BVLoader = () => {
           />
           <animate
             attributeName="width"
-            dur=".2s"
+            dur="0.2s"
             attributeType="XML"
             from="0" 
             to="22"
             id="rectLineTop4" 
             fill="freeze"
-            begin="newRect.end + .4s"
+            begin="newRect.end + 0.4s"
           />
           <animate
             attributeName="y"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="78" 
             to="51"
@@ -81,27 +81,27 @@ const BVLoader = () => {
         <rect className="horizontal2" x="50" y="63" fill="#0a61ad" width="0" height="5">
           <animate
             attributeName="width"
-            dur=".2s"
+            dur="0.2s"
             attributeType="XML"
             from="0" 
             to="22"
             id="rectLine2" 
             fill="freeze"
-            begin="rectLineTopPre.end + .1s"
+            begin="rectLineTopPre.end + 0.1s"
           />
           <animate
             attributeName="width"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="22" 
             to="0"
             id="rectLine2b" 
             fill="freeze"
-            begin="rectLineTop2.begin + .2s"
+            begin="rectLineTop2.begin + 0.2s"
           />
           <animate
             attributeName="y"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="63" 
             to="90"
@@ -111,7 +111,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="width"
-            dur=".2s"
+            dur="0.2s"
             attributeType="XML"
             from="0" 
             to="22"
@@ -121,7 +121,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="y"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="90" 
             to="63"
@@ -133,7 +133,7 @@ const BVLoader = () => {
         <rect className="outlinedPrimary" x="50" y="74" stroke="#0a61ad" strokeWidth="2" fill="#fff" width="20" height="20">
           <animate
             attributeName="y"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="73" 
             to="46"
@@ -143,7 +143,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="y"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="46" 
             to="50"
@@ -153,17 +153,17 @@ const BVLoader = () => {
           />
           <animate
             attributeName="height"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="20" 
             to="0"
             id="rectBoxLeftc" 
             fill="freeze"
-            begin="rectBoxLeft2e.end +.1s"
+            begin="rectBoxLeft2e.end +0.1s"
           />
           <animate
             attributeName="y"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="50" 
             to="74"
@@ -179,7 +179,7 @@ const BVLoader = () => {
             to="20"
             id="rectBoxLefte" 
             fill="freeze"
-            begin="rectBoxSingleServing.end +.4s"
+            begin="rectBoxSingleServing.end +0.4s"
           />
         </rect>
         <rect className="outlinedQuaternary" x="76" y="50" stroke="#0a61ad" strokeWidth="2" fill="#fff" width="20" height="0">
@@ -195,30 +195,30 @@ const BVLoader = () => {
           />
           <animate
             attributeName="height"
-            dur="0.3s"
+            dur="00.3s"
             attributeType="XML"
             from="20" 
             to="0"
             id="rectBoxQuat2" 
             fill="freeze"
-            begin="rectBoxQuat.end +.6s"
+            begin="rectBoxQuat.end +0.6s"
           />
         </rect>
         <g transform="scale(1,-1) translate(0,-100)">
           <rect className="outlinedSecondary" x="50" y="6" stroke="#0a61ad" strokeWidth="2" fill="#fff" width="20" height="0">
             <animate
               attributeName="height"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="0" 
               to="20"
               id="rectBoxLeft2" 
               fill="freeze"
-              begin="rectLine2b.end + .1s"
+              begin="rectLine2b.end + 0.1s"
               />
             <animate
               attributeName="y"
-              dur=".05s"
+              dur="0.05s"
               attributeType="XML"
               from="6" 
               to="9"
@@ -228,7 +228,7 @@ const BVLoader = () => {
             />
             <animate
               attributeName="y"
-              dur=".05s"
+              dur="0.05s"
               attributeType="XML"
               from="9" 
               to="6"
@@ -238,17 +238,17 @@ const BVLoader = () => {
             />
             <animate
               attributeName="x"
-              dur=".3s"
+              dur="0.3s"
               attributeType="XML"
               from="50" 
               to="76"
               id="rectBoxLeft2c" 
               fill="freeze"
-              begin="newRect.end + .3s"
+              begin="newRect.end + 0.3s"
             />
             <animate
               attributeName="y"
-              dur=".3s"
+              dur="0.3s"
               attributeType="XML"
               from="6" 
               to="34"
@@ -258,7 +258,7 @@ const BVLoader = () => {
             />
             <animate
               attributeName="y"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="34" 
               to="30"
@@ -288,7 +288,7 @@ const BVLoader = () => {
             <animate
               attributeName="y"
               attributeType="XML"
-              dur=".1s"
+              dur="0.1s"
               from="30" 
               to="6"
               id="rectBoxLeft2g" 
@@ -297,7 +297,7 @@ const BVLoader = () => {
             />
             <animate
               attributeName="x"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="76" 
               to="50"
@@ -318,17 +318,17 @@ const BVLoader = () => {
           <rect className="outlinedTertiary" x="50" y="6" stroke="#0a61ad" strokeWidth="2" fill="#fff" width="20" height="0">
             <animate
               attributeName="height"
-              dur=".2s"
+              dur="0.2s"
               attributeType="XML"
               from="0" 
               to="20"
               id="rectBoxSingleServing" 
               fill="freeze"
-              begin="rectBoxLeftd.end +.2s"
+              begin="rectBoxLeftd.end +0.2s"
             />
             <animate
               attributeName="y"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="6" 
               to="10"
@@ -338,7 +338,7 @@ const BVLoader = () => {
             />
             <animate
               attributeName="y"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="10" 
               to="6"
@@ -348,19 +348,19 @@ const BVLoader = () => {
             />
             <animate
               attributeName="height"
-              dur=".001s"
+              dur="0.001s"
               attributeType="XML"
               from="20" 
               to="0"
               id="rectBoxSingleServing2" 
               fill="freeze"
-              begin="rectBoxLefte.end +.2s"
+              begin="rectBoxLefte.end +0.2s"
             />
           </rect>
           <rect className="solidPrimary" x="76" y="6" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" width="20" height="0">
             <animate
               attributeName="height"
-              dur=".4s"
+              dur="0.4s"
               attributeType="XML"
               from="0" 
               to="36"
@@ -370,7 +370,7 @@ const BVLoader = () => {
             />
             <animate
               attributeName="height"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="36" 
               to="34"
@@ -380,17 +380,17 @@ const BVLoader = () => {
             />
             <animate
               attributeName="height"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="34" 
               to="50"
               id="rectBox2" 
               fill="freeze"
-              begin="rectLine2b.end + .1s; rectBox6"
+              begin="rectLine2b.end + 0.1s; rectBox6"
             />
             <animate
               attributeName="height"
-              dur=".1s"
+              dur="0.1s"
               attributeType="XML"
               from="50" 
               to="45"
@@ -406,22 +406,22 @@ const BVLoader = () => {
               to="0"
               id="rectBox4" 
               fill="freeze"
-              begin="rectBox3.end + .25s"
+              begin="rectBox3.end + 0.25s"
             />
             <animate
               attributeName="height"
               animation-direction="reverse"
-              dur="0.3s"
+              dur="00.3s"
               attributeType="XML"
               from="0" 
               to="20"
               id="rectBox5" 
               fill="freeze"
-              begin="rectBoxLeft2d.begin + .1s"
+              begin="rectBoxLeft2d.begin + 0.1s"
             />
             <animate
               attributeName="height"
-              dur="0.3s"
+              dur="00.3s"
               attributeType="XML"
               from="20" 
               to="36"
@@ -434,27 +434,27 @@ const BVLoader = () => {
         <rect className="solidSecondary" x="76" y="49" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" width="20" height="0">
           <animate
             attributeName="height"
-            dur=".001s"
+            dur="0.001s"
             attributeType="XML"
             from="0" 
             to="45"
             id="newRect" 
             fill="freeze"
-            begin="rectBox2.end + .2s"
+            begin="rectBox2.end + 0.2s"
           />
           <animate
             attributeName="height"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="45" 
             to="16"
             id="newRect2" 
             fill="freeze"
-            begin="newRect.end + .1s"
+            begin="newRect.end + 0.1s"
           />
           <animate
             attributeName="height"
-            dur=".1s"
+            dur="0.1s"
             attributeType="XML"
             from="16" 
             to="20"
@@ -464,7 +464,7 @@ const BVLoader = () => {
           />
           <animate
             attributeName="height"
-            dur=".3s"
+            dur="0.3s"
             attributeType="XML"
             from="20" 
             to="0"
@@ -478,53 +478,53 @@ const BVLoader = () => {
             <animate
               attributeName="r"
               begin="0s; circ1b.end"
-              dur=".4s"
+              dur="0.4s"
               id="circ1a"
               from="1"
-              to=".5"
+              to="0.5"
             />
             <animate
               attributeName="r"
               begin="circ1a.end"
-              dur=".4s"
+              dur="0.4s"
               id="circ1b"
-              from=".5"
+              from="0.5"
               to="1"
             />
         </circle>
         <circle cx="101" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
           <animate
             attributeName="r"
-            begin=".1s; circ2b.end"
-            dur=".4s"
+            begin="0.1s; circ2b.end"
+            dur="0.4s"
             id="circ2a"
             from="1"
-            to=".5"
+            to="0.5"
           />
           <animate
             attributeName="r"
             begin="circ2a.end"
-            dur=".4s"
+            dur="0.4s"
             id="circ2b"
-            from=".5"
+            from="0.5"
             to="1"
           />
         </circle>
         <circle cx="105" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
         <animate
           attributeName="r"
-          begin=".2s; circ3b.end"
-          dur=".4s"
+          begin="0.2s; circ3b.end"
+          dur="0.4s"
           id="circ3a"
           from="1"
-          to=".5"
+          to="0.5"
         />
         <animate
           attributeName="r"
           begin="circ3a.end"
-          dur=".4s"
+          dur="0.4s"
           id="circ3b"
-          from=".5"
+          from="0.5"
           to="1"
         />
         </circle>

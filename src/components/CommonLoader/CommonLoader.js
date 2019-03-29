@@ -9,53 +9,53 @@ const CommonLoader = () => {
             <animate
               attributeName="r"
               begin="0s; circ1b.end"
-              dur=".4s"
+              dur="0.4s"
               id="circ1a"
               from="1"
-              to=".5"
+              to="0.5"
             />
             <animate
               attributeName="r"
               begin="circ1a.end"
-              dur=".4s"
+              dur="0.4s"
               id="circ1b"
-              from=".5"
+              from="0.5"
               to="1"
             />
         </circle>
         <circle cx="94" cy="50" stroke="#228B22" strokeWidth="1" fill="#228B22" r="1">
           <animate
             attributeName="r"
-            begin=".1s; circ2b.end"
-            dur=".4s"
+            begin="0.1s; circ2b.end"
+            dur="0.4s"
             id="circ2a"
             from="1"
-            to=".5"
+            to="0.5"
           />
           <animate
             attributeName="r"
             begin="circ2a.end"
-            dur=".4s"
+            dur="0.4s"
             id="circ2b"
-            from=".5"
+            from="0.5"
             to="1"
           />
         </circle>
         <circle cx="98" cy="50" stroke="#228B22" strokeWidth="1" fill="#228B22" r="1">
         <animate
           attributeName="r"
-          begin=".2s; circ3b.end"
-          dur=".4s"
+          begin="0.2s; circ3b.end"
+          dur="0.4s"
           id="circ3a"
           from="1"
-          to=".5"
+          to="0.5"
         />
         <animate
           attributeName="r"
           begin="circ3a.end"
-          dur=".4s"
+          dur="0.4s"
           id="circ3b"
-          from=".5"
+          from="0.5"
           to="1"
         />
         </circle>
