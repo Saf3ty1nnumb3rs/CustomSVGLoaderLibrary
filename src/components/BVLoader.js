@@ -277,6 +277,15 @@ const BVLoader = () => {
               begin="rectBoxSingleServing3.end"
             />
             <animate
+              attributeName="stroke"
+              attributeType="XML"
+              dur="0.01s" 
+              to="transparent"
+              id="rectBoxLeft2f-stroke" 
+              fill="freeze"
+              begin="rectBoxSingleServing3.end"
+            />
+            <animate
               attributeName="y"
               attributeType="XML"
               dur=".1s"
@@ -295,6 +304,15 @@ const BVLoader = () => {
               id="rectBoxLeft2h" 
               fill="freeze"
               begin="rectBoxLeft2g.end"
+            />
+            <animate
+              attributeName="stroke"
+              attributeType="XML"
+              dur="0.01s" 
+              to="#0a61ad"
+              id="rectBoxLeft2h-stroke" 
+              fill="freeze"
+              begin="rectBoxLeft2h.end"
             />
           </rect>
           <rect className="outlinedTertiary" x="50" y="6" stroke="#0a61ad" strokeWidth="2" fill="#fff" width="20" height="0">
@@ -456,7 +474,7 @@ const BVLoader = () => {
           />
         </rect>
         <text x="38" y="120" fontSize="16px"fill="#0a61ad">Loading</text>
-        <circle className="solidSecondary" cx="97" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
+        <circle cx="97" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
             <animate
               attributeName="r"
               begin="0s; circ1b.end"
@@ -474,7 +492,7 @@ const BVLoader = () => {
               to="1"
             />
         </circle>
-        <circle className="solidSecondary" cx="101" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
+        <circle cx="101" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
           <animate
             attributeName="r"
             begin=".1s; circ2b.end"
@@ -492,7 +510,7 @@ const BVLoader = () => {
             to="1"
           />
         </circle>
-        <circle className="solidSecondary" cx="105" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
+        <circle cx="105" cy="120" stroke="#0a61ad" strokeWidth="1" fill="#0a61ad" r="1">
         <animate
           attributeName="r"
           begin=".2s; circ3b.end"
